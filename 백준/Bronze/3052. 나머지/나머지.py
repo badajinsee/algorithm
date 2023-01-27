@@ -1,8 +1,7 @@
-b = []
-cnt =0
+c = []
 for i in range(10):
-    num = int(input())
-    a = num % 42 
-    b.append(a)
-c = set(b)
-print(len(c))
+    a = int(input())
+    b = a % 42
+    c.append(b)
+    d = set(c)
+print(len(d))
